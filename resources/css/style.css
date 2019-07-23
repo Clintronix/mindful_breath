@@ -781,6 +781,7 @@ footer p {
 }
 
 .card {
+    display:none;
   perspective: 75rem;
   -moz-perspective: 75rem;
   position: relative;
