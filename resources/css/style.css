@@ -69,6 +69,7 @@ h1 {
     word-spacing: 4px;
     letter-spacing: 1px;
 }
+.hero-text-content h1 {font-weight: 100;}
 
 h2 {
     font-size: 180%;
