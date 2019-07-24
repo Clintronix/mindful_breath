@@ -277,6 +277,7 @@ header {
     float: right;
     list-style: none;
     margin-top: 55px;
+    
 }
 
 .main-nav li {
@@ -852,8 +853,7 @@ footer p {
       text-align: center;
       width: 80%;
       margin: 0 auto;
-
-        font-size: .95rem;
+      font-size: .8rem;
 }
   .card__cta {
     position: absolute;

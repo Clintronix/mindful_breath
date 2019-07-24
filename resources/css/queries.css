@@ -159,9 +159,7 @@
     .sticky .main-nav li a:visited { padding: 10px 0;}
     .sticky .mobile-nav-icon { margin-top: 10px; }
     .sticky .mobile-nav-icon i { color: #555; } 
-
-}
-    .main-nav {width: 30%;}
+      .main-nav {width: 60%;}
     body { font-size: 16px; }
     section { padding: 30px 0; }
     
@@ -170,10 +168,9 @@
         position: relative;
                     }
     .col { 
-        width: 100%;
-        margin: 0 0 4% 0;
-    }
-    
+        width: 80%;
+        margin: 4% 2%;
+    }  
     
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
@@ -201,6 +198,9 @@
 
 
 
+
+}
+  
 /*****************************  Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
