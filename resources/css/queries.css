@@ -199,8 +199,7 @@
   
 /*****************************  Small phones: from 0 to 480px */
 @media only screen and (max-width: 600px) {
-    .main-nav {width: 40%;
-    color: black;}
+    .main-nav {width: 30%;}
     section { padding: 25px 5px; }
     .contact-form {width: 100%; }
     .hero-text-content .btn  {display:none;}
