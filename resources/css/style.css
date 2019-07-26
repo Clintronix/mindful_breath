@@ -202,7 +202,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/trippy_head.jpeg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 130vh;
     background-attachment: fixed;
 }
 
@@ -215,8 +215,8 @@ header {
 
 .hero-text-box {
     width: 1140px;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 40%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -938,6 +938,7 @@ iframe {
                 margin: auto 20px;
                 display: flex;
                 justify-content: center;
+                align-items: center;
                 font-weight: 300;
             }
             
@@ -952,5 +953,10 @@ iframe {
             }
 
 .background .details li {list-style: none;}
+.cursive {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.71);
+    line-height: 25px;
+}
 
 
