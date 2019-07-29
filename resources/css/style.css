@@ -20,7 +20,8 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    font-family: sans-serif;
+    font-family: 'Lato', 'Arial', sans-serif;
+    -webkit-font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -801,6 +802,7 @@ footer p {
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
     .card__side--front {
+        z-index: 2;
       background-color: #fff; }
     .card__side--back {
       transform: rotateY(180deg); }
@@ -812,10 +814,12 @@ footer p {
         background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
   
 .card:hover .card__side--front {
-    transform: rotateY(-180deg); }
+    transform: rotateY(-180deg); 
+}
   
 .card:hover .card__side--back {
-    transform: rotateY(0); }
+    transform: rotateY(0);
+}
  
 .card__picture {
     background-size: cover;
