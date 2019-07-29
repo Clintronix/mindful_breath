@@ -1,9 +1,9 @@
 /*****************************  Big tablet to 1200px (widths smaller taht the 1140px row) */
 @media only screen and (max-width: 1440px) {
     .main-nav {display: inline-block;} 
-
-}
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,700italic,800);
+}
+
 
 @media only screen and (max-width: 1200px) {
     .hero-text-box {
