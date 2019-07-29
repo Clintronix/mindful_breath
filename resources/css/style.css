@@ -803,7 +803,6 @@ footer p {
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
     .card__side--front {
-        z-index: 2;
       background-color: #fff; }
     .card__side--back {
       transform: rotateY(180deg); }
