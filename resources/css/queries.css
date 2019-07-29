@@ -193,7 +193,7 @@
     
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
-    
+    .section-tours {display: none;}
 }
 
   
@@ -204,7 +204,6 @@
     section { padding: 25px 5px; }
     .contact-form {width: 100%; }
     .hero-text-content .btn  {margin-bottom: 10px;}
-    .section-tours {display: none;}
     .hero-text-box {width: 100%; height: 50%; padding-bottom: 100px;}
     .row a img {width: 25%; height: auto;}
     
