@@ -558,6 +558,7 @@ blockquote {
     font-weight: 300;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 blockquote:before {
